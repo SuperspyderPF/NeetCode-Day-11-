@@ -1,0 +1,1 @@
+var rotate = (nums, k) => nums.unshift(...nums.splice(-k % nums.length))
